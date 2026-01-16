@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  margin: 0;
+  margin-top: 40px;
+  font-weight: 800;
+  font-style: Italic;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: -1.5px;
+}
+.menu {
+  background-color: rgba(232, 239, 249, 1);
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 64px 120px;
+}
+
+.menu-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+.close-menu {
+  background-image: url(./images/close-menu.svg);
+  background-repeat: no-repeat;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgba(41, 41, 41, 1);
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  box-sizing: border-box;
+  background-image: url(./images/hero-bg.jpg);
+  background-size: cover;
+  background-position: top center;
+  padding: 64px 120px;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-button {
+  display: block;
+  background-image: url(./images/burger-menu.svg);
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+}
+
+.menu-button:hover {
+  display: block;
+  background-image: url(./images/burger-menu-hover.svg);
+  width: 24px;
+  height: 24px;
+}
+
+footer {
+  height: 460px;
+  background-image: url(./images/bg-footer.jpg);
+  background-size: cover;
+  background-position: top center;
+}
