@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -13,30 +13,70 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="menu">
+    <div class="menu" id="menu">
       <div class="menu-top">
         <img src="./images/logo.svg" alt="Logo" />
-        <img src="./images/close-menu.svg" alt="close" />
+        <a href="#" class="menu-close"></a>
       </div>
 
       <nav>
-        <a class="nav-link" href="">HOME</a>
-        <a class="nav-link" href="">RECOMMENDED</a>
-        <a class="nav-link" href="">CATEGORIES</a>
-        <a class="nav-link" href="">HOW TO BUY</a>
+        <a class="nav-link" href="#home">HOME</a>
+        <a class="nav-link" href="#recommended-section">RECOMMENDED</a>
+        <a class="nav-link" href="#categories-section">CATEGORIES</a>
+        <a class="nav-link" href="#how-to-buy-section">HOW TO BUY</a>
       </nav>
     </div>
-    <header>
+    <header id="home">
       <div class="header-top">
         <img src="./images/logo.svg" alt="Logo" />
-        <a href="#" class="menu-button"></a>
+        <a href="#menu" class="menu-button"></a>
       </div>
       <div class="header-bottom">
         <img src="./images/sound-waves.svg" alt="" />
         <h1>The world shades. <br />Your music shines.</h1>
       </div>
     </header>
-    <main></main>
+    <main>
+      <section class="recommended-section" id="recommended-section">
+        <h2 class="title">Recommended</h2>
+        <div class="products">
+          <article class="product">
+            <img
+              class="product-photo"
+              src="./images/recommended-1.svg"
+              alt=""
+            />
+            <h3 class="product-title">Bose portable Smart speaker</h3>
+            <p class="product-description">Smart home</p>
+            <p class="product-price">$ 399.00</p>
+          </article>
+          <article class="product">
+            <img
+              class="product-photo"
+              src="./images/recommended-2.svg"
+              alt=""
+            />
+            <h3 class="product-title">SoundLink Flex Bluetooth speaker</h3>
+            <p class="product-description">Portable bluetooth</p>
+            <p class="product-price">$ 149.00</p>
+          </article>
+          <article class="product">
+            <img
+              class="product-photo"
+              src="./images/recommended-3.svg"
+              alt=""
+            />
+            <h3 class="product-title">SoundLink Color Bluetooth speaker II</h3>
+            <p class="product-description">Portable bluetooth</p>
+            <p class="product-price">$ 129.00</p>
+          </article>
+        </div>
+      </section>
+      <section id="categories-section">
+        <h2 class="title">Browse Bose products by category</h2>
+      </section>
+      <section id="how-to-buy-section">1231</section>
+    </main>
     <footer></footer>
   </body>
 </html>
